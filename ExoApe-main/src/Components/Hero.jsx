@@ -41,7 +41,7 @@ const Hero = () => {
           data-scroll
           data-scroll-speed="-1"
           className="w-full h-full object-cover"
-          src= "Public/pp1.jpeg"
+          src= "public/pp1.jpeg"
           alt=""
         />
       </div>
