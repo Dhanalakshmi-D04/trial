@@ -22,14 +22,24 @@ const Navbar = () => {
         </div>
 
         <div className="links overflow-hidden hidden sm:flex items-center gap-10">
-          <div className="sm:flex items-center gap-10">
-            {["Home", "About", "Projects", "Contact"].map((item) => (
-              <a className="text-lg font-medium" key={item}>
-                {item}
-              </a>
-            ))}
-          </div>
-        </div>
+  <div className="sm:flex items-center gap-10">
+    {[
+      { name: "Home", id: "home" },
+      { name: "About", id: "about" },
+      { name: "Projects", id: "projects" },
+      { name: "Contact", id: "contact" },
+    ].map((item) => (
+      <a
+        key={item.name}
+        href={`#${item.id}`}
+        className="text-lg font-medium cursor-pointer hover:opacity-70 transition"
+      >
+        {item.name}
+      </a>
+    ))}
+  </div>
+</div>
+
       </div>
     </div>
   );

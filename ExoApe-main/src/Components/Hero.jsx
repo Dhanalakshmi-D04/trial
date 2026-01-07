@@ -97,7 +97,7 @@ const Hero = () => {
 
               <div className="flex gap-32 max-md:hidden font-medium">
                 <div className="space-y-3">
-                  {["Certifications", "Resume", "Internships", "Contact"].map(item => {
+                  {["Exposure", "Resume",  "Contact"].map(item => {
                     return (
                       <a
                         key={item}

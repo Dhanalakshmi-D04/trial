@@ -53,7 +53,7 @@ const Work = () => {
           ></path>
         </svg>
         <h2 className="capitalize font-semibold text-sm sm:text-3xl">
-          featured projects
+          Meet Laksh*
         </h2>
       </div>
 
@@ -65,12 +65,11 @@ const Work = () => {
           transition={{ ease: Power4.inOut, duration: 0.5 }}
           className="inline-block origin-left"
         >
-          Projects
+          This is me
         </motion.span>
       </h2>
       <p className="text-lg leading-[1.5rem] sm:text-xl sm:w-2/3 sm:opacity-40">
-        Highlights of the projects that I passionately built with forward-thinking
-        dedication and consistency.
+        who is driven by curiosity and powered by AI.
       </p>
 
       <div className="elems w-full mt-8 sm:flex sm:flex-wrap sm:justify-between">
