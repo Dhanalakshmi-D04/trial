@@ -37,15 +37,14 @@ const Story = () => {
         <div className="relative z-10 w-full max-w-screen-2xl mx-auto px-7 sm:px-28">
           <div className="space-y-7 sm:space-y-10">
             <div>
-              <h1 className="text-6xl sm:text-[9rem] sm:tracking-tighter font-medium leading-none">Our</h1>
+              <h1 className="text-6xl sm:text-[9rem] sm:tracking-tighter font-medium leading-none">Say</h1>
               <h1 className="text-6xl sm:text-[9rem] sm:tracking-tighter font-medium leading-none">
-                Story
+                Hello
               </h1>
             </div>
 
             <p className="text-lg sm:opacity-90 sm:text-2xl sm:w-1/2 leading-snug">
-              The story behind Exo Ape is one of exploration, creativity and
-              curiosity.
+              Let's Get in Touch
             </p>
 
             <span className="block w-full h-[1px] opacity-30 bg-[#e0ccbb]" />
@@ -54,23 +53,23 @@ const Story = () => {
               <div className="flex gap-16 sm:gap-32">
                 <ul className="space-y-2 max-sm:hidden">
                    {/* Address list */}
-                   {["Willem II Singel 8", "6041 HS, Roermond", "The Netherlands"].map((item) => (
+                   {["dhanalakshmidgowda04@gmail.com","Bengaluru"].map((item) => (
                     <li key={item} className="text-sm opacity-70">{item}</li>
                   ))}
                 </ul>
                 <ul className="space-y-2">
-                  {["Work", "Studio", "News", "Contact"].map((item) => (
+                  {["Home", "Resume", "Certifications", "Contact"].map((item) => (
                     <li key={item} className="text-sm opacity-70 cursor-pointer">{item}</li>
                   ))}
                 </ul>
                 <ul className="space-y-2">
-                  {["Behance", "Dribbble", "Twitter", "Instagram"].map((item) => (
+                  {[ "LinkedIn", "Github", "Instagram"].map((item) => (
                     <li key={item} className="text-sm opacity-70 cursor-pointer">{item}</li>
                   ))}
                 </ul>
               </div>
-              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="#">
-                Our Story
+              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="ExoApe-main/src/Components/Hero.jsx">
+                About me
               </a>
             </div>
           </div>

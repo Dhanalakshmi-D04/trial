@@ -53,7 +53,7 @@ const Playreel = () => {
           autoPlay
           muted
           loop
-          src="https://player.vimeo.com/progressive_redirect/playback/914803778/rendition/1080p/file.mp4?loc=external&log_user=0&signature=5344c0e4fea63ca54bb433621ca0be7b9470b475583fa68b26de2b6e380a390a"
+          src="/reel.mp4"
         ></video>
       </div>
 
@@ -70,17 +70,16 @@ const Playreel = () => {
               fill="currentColor"
             ></path>
           </svg>
-          <h2 className="text-sm">Work in motion</h2>
+          <h2 className="text-sm">Skills</h2>
         </div>
 
         <h2 className="w-full flex items-center justify-center gap-32 sm:gap-[42%]">
-          <div className="text-6xl sm:text-9xl">Play</div>
-          <div className="text-6xl sm:text-9xl">Reel</div>
+          <div className="text-6xl sm:text-9xl">AI</div>
+          <div className="text-6xl sm:text-9xl">ML</div>
         </h2>
 
         <p className="text-center text-sm">
-          Our work is best experienced in motion. Don’t <br /> forget to put on your
-          headphones.
+          Turning ideas into intelligent experiences with code and creativity.
         </p>
       </div>
     </div>
