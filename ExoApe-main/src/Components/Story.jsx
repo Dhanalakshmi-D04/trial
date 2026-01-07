@@ -29,7 +29,7 @@ const Story = () => {
             muted
             loop
             playsInline
-            src="public/0_Technology_Circuit_Board_3840x2160.mp4"
+            src="/0_Technology_Circuit_Board_3840x2160.mp4"
           />
         </div>
 
