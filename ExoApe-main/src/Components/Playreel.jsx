@@ -77,6 +77,9 @@ const Playreel = () => {
           <div className="text-6xl sm:text-9xl">AI</div>
           <div className="text-6xl sm:text-9xl">ML</div>
         </h2>
+        <p className="text-center text-xs text-white/85 font-medium tracking-wide">
+  Focused on Computer Vision , AI , ML , understanding and building systems
+</p>
 
         <p className="text-center text-sm">
           Turning ideas into intelligent experiences with code and creativity.
@@ -86,4 +89,4 @@ const Playreel = () => {
   );
 };
 
-export default Playreel;
+export default Playreel;       

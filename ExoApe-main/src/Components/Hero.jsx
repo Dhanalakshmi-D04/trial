@@ -1,5 +1,6 @@
 import gsap, { ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from 'react-router-dom';
 import Overflow from "./Overflow";
 
 const Hero = () => {
@@ -96,28 +97,15 @@ const Hero = () => {
               <a className="border-b sm:text-lg border-white inline-block" href="Components/playreel.jsx" > Skills</a>
 
               <div className="flex gap-32 max-md:hidden font-medium">
+               
                 <div className="space-y-3">
-                  {["Exposure", "Resume",  "Contact"].map(item => {
-                    return (
-                      <a
-                        key={item}
-                        className="block text-md opacity-85 capitalize"
-                        href="#"
-                      >
-                        {item}
-                      </a>
-                    );
-                  })}
-                </div>
-                <div className="space-y-3">
-                  {["dhanalakshmidgowda04@gmail.com"].map(item => {
-                    return (
-                      <a key={item} className="block text-md opacity-85" href="#" > 
-                      {item}
-                      </a>
-                    )
-                  })}
-                </div>
+      <a 
+        className="block text-md opacity-85 hover:opacity-100 transition-opacity" 
+        href="mailto:dhanalakshmidgowda04@gmail.com"
+      > 
+        dhanalakshmidgowda04@gmail.com
+      </a>
+    </div>
               </div>
             </div>
           </div>
