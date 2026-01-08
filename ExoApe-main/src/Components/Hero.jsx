@@ -94,7 +94,11 @@ const Hero = () => {
                and modern web technologies to create impactful, future-ready applications.
             </p>
             <div className="flex justify-between items-center mt-5 sm:mt-20">
-              <a className="border-b sm:text-lg border-white inline-block" href="Components/playreel.jsx" > Skills</a>
+              <a className="border-b sm:text-lg border-white inline-block cursor-pointer"   onClick={() =>
+    document
+      .getElementById("playreel")
+      ?.scrollIntoView({ behavior: "smooth" })
+         }> Skills</a>
 
               <div className="flex gap-32 max-md:hidden font-medium">
                
