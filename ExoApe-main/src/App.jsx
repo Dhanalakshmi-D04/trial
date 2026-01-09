@@ -8,41 +8,49 @@ import Spread from "./Spread";
 import Story from "./Components/Story";
 import LocomotiveScroll from "locomotive-scroll";
 
+
+
 const App = () => {
-  useEffect(() => {
+   useEffect(() => {
     const scroll = new LocomotiveScroll({
-      el: document.querySelector("[data-scroll-container]"),
+      el: document.querySelector("#scroll-container"),
       smooth: true,
+      multiplier: 1,          // inertia strength (ExoApe-like)
+      smartphone: { smooth: true },
+      tablet: { smooth: true },
     });
 
     return () => scroll.destroy();
   }, []);
 
+
   return (
     <>
-      <Navbar />
+      
 
-      {/* SCROLL CONTAINER */}
-      <main data-scroll-container>
+     
+      <main >
 
-        <section id="home" data-scroll-section>
+        <Navbar />
+
+        <section id="home">
           <Hero />
         </section>
 
-        <section id="about" data-scroll-section>
+        <section id="about" >
           <Work />
         </section>
 
-        <section id="skills" data-scroll-section>
+        <section id="skills" >
           <Playreel />
         </section>
 
-        <section id="projects" data-scroll-section>
+        <section id="projects">
           
           <Images />
         
         </section>
-        <section id="Exposures" data-scroll-section>
+        <section id="Exposures" >
           
           <Spread />
         
@@ -50,7 +58,7 @@ const App = () => {
 
         
 
-        <section id="contact" data-scroll-section>
+        <section id="contact">
           <Story />
         </section>
       

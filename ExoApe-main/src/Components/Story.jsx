@@ -99,7 +99,7 @@ const Story = () => {
 </ul>
 
            </div>
-              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="ExoApe-main/src/Components/Work.jsx">
+              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="ExoApe-main/src/Components/Hero.jsx">
                 Home
               </a>
             </div>
