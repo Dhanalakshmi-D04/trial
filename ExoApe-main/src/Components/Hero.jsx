@@ -99,6 +99,15 @@ const Hero = () => {
       .getElementById("playreel")
       ?.scrollIntoView({ behavior: "smooth" })
          }> Skills</a>
+        
+        <a
+  href="/res.pdf"
+  download="Dhanalakshmi_D_Resume.pdf"
+  className="border-b sm:text-lg border-white inline-block cursor-pointer hover:opacity-80"
+>
+  Resume
+</a>
+
 
               <div className="flex gap-32 max-md:hidden font-medium">
                

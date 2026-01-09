@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="max-w-screen-3xl mx-auto p-5 sm:p-10 flex justify-between items-center text-white">
         <div className="logo overflow-hidden">
   <h1 className="text-2xl font-semibold tracking-tight">
-    Laksh🍁
+    🍁
   </h1>
 </div>
 

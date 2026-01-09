@@ -53,23 +53,54 @@ const Story = () => {
               <div className="flex gap-16 sm:gap-32">
                 <ul className="space-y-2 max-sm:hidden">
                    {/* Address list */}
-                   {["dhanalakshmidgowda04@gmail.com","Bengaluru"].map((item) => (
+                   {[<a 
+        className="block text-md opacity-85 hover:opacity-100 transition-opacity" 
+        href="mailto:dhanalakshmidgowda04@gmail.com"
+      > 
+        dhanalakshmidgowda04@gmail.com
+      </a>,"Bengaluru,Karnataka"].map((item) => (
                     <li key={item} className="text-sm opacity-70">{item}</li>
                   ))}
                 </ul>
+                
                 <ul className="space-y-2">
-                  {["Home", "Resume", "Certifications"].map((item) => (
-                    <li key={item} className="text-sm opacity-70 cursor-pointer">{item}</li>
-                  ))}
-                </ul>
-                <ul className="space-y-2">
-                  {[ "LinkedIn", "Github", "Instagram"].map((item) => (
-                    <li key={item} className="text-sm opacity-70 cursor-pointer">{item}</li>
-                  ))}
-                </ul>
-              </div>
-              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="ExoApe-main/src/Components/Hero.jsx">
-                About me
+  <li>
+    <a
+      href="https://www.linkedin.com/in/dhanalakshmi-d-gowda-09215233b/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm opacity-70 hover:opacity-100 transition cursor-pointer"
+    >
+      LinkedIn
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://github.com/Dhanalakshmi-D04"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm opacity-70 hover:opacity-100 transition cursor-pointer"
+    >
+      GitHub
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://www.instagram.com/_.dhanalakshmi.d.gowda._23?igsh=OHIzZHZqb3ozMXU1"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm opacity-70 hover:opacity-100 transition cursor-pointer"
+    >
+      Instagram
+    </a>
+  </li>
+</ul>
+
+           </div>
+              <a className="border-b max-sm:hidden border-[#e0ccbb] pb-1" href="ExoApe-main/src/Components/Work.jsx">
+                Home
               </a>
             </div>
           </div>
