@@ -7,3 +7,45 @@ html {
 }
 
 body::-webkit-scrollbar {display: none;}
+
+.orbit-wrapper {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 2200px;
+  cursor: grab;
+}
+
+.orbit-wrapper:active {
+  cursor: grabbing;
+}
+
+.orbit-3d {
+  position: relative;
+  width: 600px;
+  height: 450px;
+  transform-style: preserve-3d;
+}
+
+.orbit-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 300px;
+  transform:
+    rotateY(calc((360deg / var(--total)) * var(--i)))
+    translateZ(580px); /* 👈 ensures full visibility */
+
+  transform-origin: center;
+}
+
+.orbit-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 40px 90px rgba(0,0,0,0.6);
+}

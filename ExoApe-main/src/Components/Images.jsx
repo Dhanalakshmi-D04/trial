@@ -69,8 +69,8 @@ const Images = () => {
   return (
     <>
       {/* Section Title */}
-      <div className="w-full flex justify-center mt-60
-       mb-40">
+      <div className="w-full flex justify-center mt-80
+       mb-80">
         <h1 className="works-title text-5xl sm:text-7xl font-semibold tracking-tight 
 bg-gradient-to-r from-neutral-900 via-neutral-700 to-neutral-900 
 bg-clip-text text-transparent">
@@ -81,7 +81,7 @@ bg-clip-text text-transparent">
       </div>
 
       {/* Images Section */}
-      <div className="images-section w-full h-[70vh] sm:h-[180vh] overflow-hidden flex items-center justify-center">
+      <div className="images-section w-full h-[50vh] sm:h-[180vh] overflow-hidden flex items-center justify-center">
         <div className="relative w-1/3 sm:w-1/4 h-1/2">
           {position.map((item, index) => (
             <div

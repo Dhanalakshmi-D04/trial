@@ -81,7 +81,7 @@ const Work = () => {
           {[
             "AI / Machine Learning",
             "Creative Development",
-            "Motion & Interaction",
+            "Vision",
             "Problem Solving",
           ].map((item, i) => (
             <motion.div
